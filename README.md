@@ -1,4 +1,4 @@
-# CLiente de la API del Inegi
+# Ciente de la API de las empresas según datos del INEGI
 Cliente web para la API con datos de las empresas de Baja California
 
 # sinopsis
@@ -10,12 +10,21 @@ NodeJs
 react
 
 babel
- 
+
+material-ui
+
+react-dom
 
 Se puedén instalar con npm install 
 
 # Uso 
 Muestra los datos obtenidos de la API de las empresas en Baja California, además de proveer un formulario para hacer las consultas 
+
+# Galería
+
+![Captura de funcionamiento](https://github.com/Israel-Eskape/clienteInegi/blob/main/capturas/Captura%20funcionamiento%20cliente.png)
+
+![Captura de la interfaz](https://github.com/Israel-Eskape/clienteInegi/blob/main/capturas/captura%20cliente.png)
 
 # Integrantes
 Avendaño Martinez Gustavo Israel 
