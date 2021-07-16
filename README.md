@@ -33,6 +33,6 @@ García Hernández Francisco de Jesus
 
 Gerónimo Aparicio Elvia 
 
-Hernández Lascares Humberto 
+Hernández Lascarez Humberto 
 
 Martínez León Daniel 
