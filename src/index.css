@@ -11,12 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-#Buscador {
-  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
-  background-size: 24px;
+.buscador {
+  background-color: aqua;
+  width: 90%;
+  display: block;
+  margin-bottom:"20rem";
+  margin-left: 5em;
+  }
+
+.inputsearch{
+  font-size: x-large;
+  font-weight: 500;
+  
+  margin-left: 4em;
   width: 500px;
   border: transparent;
   border-bottom: solid 1px #ccc;
   padding: 10px 10px 10px 30px;
   outline: none;
 }
+
+

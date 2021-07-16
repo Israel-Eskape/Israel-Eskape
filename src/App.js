@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import "./index.css"
 import { makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -23,6 +23,7 @@ export default function App() {
 
   async function fetchData(value) {
     const url = "http://localhost:8000/search/Codigo_postal/"+value;
+    
     const response = await fetch(url);
     const res = await response.json();
     setData(res)
@@ -35,9 +36,9 @@ export default function App() {
   const classes = useStyles();
   return (
 
-    <div className="" style={{ backgroundColor: "rgb(125,125,125)", height: "100vh" }}>
-      <input type="text" value={value.search} onChange={handleChange} name="name" />
-      <div>
+    <div className="buscador" style={{ backgroundColor: "rgb(255,255,255)", height: "100vh", width:"100%", margin:"auto", padding:"20px 20px 20px 20px" }}>
+      <input className="inputsearch" type="search" placeholder="Escribe el código postal" id="Buscador" value={value.search} onChange={handleChange} name="name" />
+    <div style={{marginTop:"2rem"}}>
       <TableContainer component={Paper}>
       <Table className={classes.table} size="small" aria-label="a dense table">
         <TableHead>
@@ -56,7 +57,6 @@ export default function App() {
             <TableCell align="left">Municipio</TableCell>
           </TableRow>
         </TableHead>
-        
         <TableBody>
           {data.map((row) => (
             <TableRow key={row.name}>
