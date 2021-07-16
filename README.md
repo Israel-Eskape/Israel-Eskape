@@ -1,4 +1,4 @@
-# API REST
+# CLiente de la API del Inegi
 Cliente web para la API con datos de las empresas de Baja California
 
 # sinopsis
